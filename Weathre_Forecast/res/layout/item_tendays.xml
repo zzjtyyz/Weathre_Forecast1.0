@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/weather_ten"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/trust_in_me"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/temp_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/week_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ave_ten"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/date_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignLeft="@+id/week_ten"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/ave_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date_ten"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ave_ten"
+        android:layout_toLeftOf="@+id/ave_ten"
+        android:contentDescription="@string/trust_in_me"
+        android:src="@drawable/shan" />
+
+    
+
+</RelativeLayout>

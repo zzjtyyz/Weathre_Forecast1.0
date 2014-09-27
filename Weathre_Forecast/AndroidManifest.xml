@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zzj.weathre_forecast"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:tools="http://schemas.android.com/tools">
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" tools:ignore="OldTargetApi"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <activity
+            android:name=".MainActivity"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zzj.weathre_forecast.Settings"></activity>
+        <service android:name="com.zzj.weathre_forecast.WeatherService"></service>
+        <activity android:name="com.zzj.weathre_forecast.CityActivity"></activity>
+        <service android:name="com.zzj.weathre_forecast.CityService"></service>
+        <activity android:name="com.zzj.weathre_forecast.AboutActivity"
+            android:parentActivityName="com.zzj.weathre_forecast.MainActivity"/>
+        <activity android:name="com.zzj.weathre_forecast.WeatherActivity"
+             android:parentActivityName="com.zzj.weathre_forecast.MainActivity"/>
+    </application>
+</manifest>

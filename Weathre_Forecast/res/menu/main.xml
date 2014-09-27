@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zzj.weathre_forecast.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_about"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:showAsAction="never"
+        android:title="@string/action_refresh"/>
+    <item
+        android:id="@+id/action_icon_sets"
+        android:showAsAction="never"
+        android:title="@string/action_icon_sets"/>
+    <item
+        android:id="@+id/action_send_feedback"
+        android:showAsAction="never"
+        android:title="@string/action_send_feedback"/>
+	
+</menu>

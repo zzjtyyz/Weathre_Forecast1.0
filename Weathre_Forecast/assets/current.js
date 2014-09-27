@@ -1,0 +1,93 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"長沙市, Hunan",
+		"city":"長沙市",
+		"state":"HN",
+		"state_name":"Hunan",
+		"country":"CI",
+		"country_iso3166":"CN",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"57679",
+		"latitude":"28.20000076",
+		"longitude":"113.08000183",
+		"elevation":"46.00000000"
+		},
+		"observation_location": {
+		"full":"Huanghua, ",
+		"city":"Huanghua",
+		"state":"",
+		"country":"CI",
+		"country_iso3166":"CN",
+		"latitude":"28.23333359",
+		"longitude":"112.86666870",
+		"elevation":"217 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"ZGHA",
+		"observation_time":"Last Updated on 八月 19, 10:00 PM CST",
+		"observation_time_rfc822":"Tue, 19 Aug 2014 22:00:00 +0800",
+		"observation_epoch":"1408456800",
+		"local_time_rfc822":"Tue, 19 Aug 2014 22:34:01 +0800",
+		"local_epoch":"1408458841",
+		"local_tz_short":"CST",
+		"local_tz_long":"Asia/Shanghai",
+		"local_tz_offset":"+0800",
+		"weather":"多云",
+		"temperature_string":"73 F (23 C)",
+		"temp_f":73,
+		"temp_c":23,
+		"relative_humidity":"88%",
+		"wind_string":"From the South at 7 MPH",
+		"wind_dir":"South",
+		"wind_degrees":180,
+		"wind_mph":7,
+		"wind_gust_mph":0,
+		"wind_kph":11,
+		"wind_gust_kph":0,
+		"pressure_mb":"1010",
+		"pressure_in":"29.83",
+		"pressure_trend":"0",
+		"dewpoint_string":"70 F (21 C)",
+		"dewpoint_f":70,
+		"dewpoint_c":21,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"73 F (23 C)",
+		"feelslike_f":"73",
+		"feelslike_c":"23",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"-9999.00 in (-9999.00 mm)",
+		"precip_1hr_in":"-9999.00",
+		"precip_1hr_metric":"--",
+		"precip_today_string":"0.00 in (0.0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0.0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/57679.html",
+		"history_url":"http://www.wunderground.com/history/airport/ZGHA/2014/8/19/DailyHistory.html",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=28.23333359,112.86666870",
+		"nowcast":""
+	}
+}

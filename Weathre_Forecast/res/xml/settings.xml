@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="UNITS">
+        <ListPreference android:key="temperature" android:title="temperature" android:entries="@array/temperature_name" android:entryValues="@array/temperature_name" android:dialogTitle="温度单位"/>
+        <ListPreference android:key="wind" android:title="Wind speed" android:entries="@array/wind_speed_name" android:entryValues="@array/wind_speed_name" android:dialogTitle="风速单位"/>
+        <ListPreference android:key="rainfall" android:title="Rainfall" android:entries="@array/rainfall_name" android:entryValues="@array/rainfall_name" android:dialogTitle="降雨量单位"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="WIDGETS AND NOTIFICTION">
+        <ListPreference android:key="update" android:title="Update interval" android:entries="@array/update_interval_name" android:entryValues="@array/update_interval_value" android:dialogTitle="更新时间间隔"/>
+        <CheckBoxPreference android:key="cb" android:title="Weather Notifiction"/>
+        <ListPreference android:key="configure" android:title="Configure weahter notifiction" android:entries="@array/rainfall_name" android:entryValues="@array/rainfall_value" android:dialogTitle="通知" android:dependency="cb"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="MISCELLANEOUS">
+        <ListPreference android:key="lane" android:title="Force Englist" android:entries="@array/update_interval_name" android:entryValues="@array/update_interval_name" android:dialogTitle="更新时间间隔"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
